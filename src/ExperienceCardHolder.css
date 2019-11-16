@@ -1,0 +1,61 @@
+.card-deck-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px 20px 60px;
+}
+
+
+.card-deck-title {
+    display: block;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgb(72,72,72);
+    cursor: pointer;
+    letter-spacing: normal;
+    
+}
+.card-deck-subtitle {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(72,72,72);
+    cursor: pointer;
+    letter-spacing: normal;
+}
+
+.card-deck {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-template-rows: 1fr;
+    grid-column-gap: 0.25rem;
+    grid-row-gap: 15px;
+    padding-top: 20px;
+    margin: -8px;
+    box-sizing: border-box;
+}
+
+.card-deck-CTA-link {
+    display: block;
+    padding-top: 20px;
+    color: rgb(0, 132, 137);
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 17px;
+    text-size-adjust: 100%;
+    text-align: middle;
+    font-weight: 600;
+}
+
+.card-deck-CTA-link:hover {
+    text-decoration: underline;
+}
+
+.fa-angle-right {
+    margin-left: 5px;
+    vertical-align: middle;
+    /* font-weight: 600; */
+}

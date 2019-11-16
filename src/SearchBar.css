@@ -1,0 +1,144 @@
+table {  
+    display: table-cell !important;
+    width: 100%;
+    padding: 0px 10px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.16) !important;
+    text-align: left;
+    vertical-align: middle;
+    border-spacing: 0px;
+    line-height: normal;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    display: table-cell;
+    box-sizing:border-box;
+    clear: both;
+    vertical-align: middle;
+    height: 48px;
+    border-radius: 8px 0 0 8px;
+    border-spacing: 0px;
+    border-right: none;
+  }
+  
+  td:last-child,
+  td:nth-last-child(2) {
+      text-align: right;
+  }
+
+  input {
+    outline: none;
+    display: inline-block;
+    background-color: transparent !important;
+    border: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    text-overflow: ellipsis !important;
+    color: #484848 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    width: 100% !important;
+    line-height: normal;
+    text-align: start;
+    cursor: text;
+    white-space: nowrap !important;
+    border-spacing: 0px !important;
+    white-space: nowrap;
+  }
+  .guests-add-count {
+    margin-right: 8px;
+    width: 14px;
+  }
+  .date-field-calendar {
+    margin-right: 8px;
+    width: 14px;
+  }
+  
+  .guests-button {
+    position: relative !important;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-overflow: ellipsis !important;
+    color: rgb(118, 118, 118) !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 13px 14px;
+    position: relative;
+    border-width: initial;
+    white-space: nowrap;
+    border-spacing: 0px !important;
+    cursor: pointer;
+  }
+  
+  .guests-button:focus {
+    box-shadow: rgb(34, 34, 34) 0px 0px 0px 2px !important;
+  }
+  
+  .date-button {
+    position: relative !important;
+    /* text-align: left; */
+    /* display: table !important; */
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-overflow: ellipsis !important;
+    color: rgb(118, 118, 118) !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 13px 14px;
+    position: relative;
+    border-width: initial;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    
+  }
+  
+  .date-button:focus {
+    box-shadow: rgb(34, 34, 34) 0px 0px 0px 2px !important;
+  }
+
+  
+  .search-input {
+    margin: 0 0 0 10px !important;
+    
+  }
+
+  .search-td {
+      width: 275px;
+      outline: none;
+  }
+  
+  .search-button {
+    padding: 6px 16px 6px 16px;
+    margin: 0 0 0 10px;
+    background-color: #222222;
+    border: none;
+    border-radius: 8px;
+    color: white; 
+    vertical-align: middle;
+    outline: none;
+    cursor: pointer;
+    padding: 13px 14px;
+  }
+  .search-icon {
+    -webkit-text-stroke: .10px;
+    outline: none;
+  }

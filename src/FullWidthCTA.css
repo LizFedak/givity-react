@@ -1,0 +1,83 @@
+.CTA-container {
+    display: grid;
+    max-width: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding: 20px 60px 20px 60px;
+    font-family: 'Questrial', sans-serif;
+}
+
+
+.CTA-container-title {
+    display: block;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgb(72,72,72);
+    cursor: pointer;
+    letter-spacing: normal;
+}
+
+.CTA-container-subtitle {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(72,72,72);
+    cursor: pointer;
+    letter-spacing: normal;
+    padding-bottom: 20px;
+}
+
+
+.CTA-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+  }
+  
+  .CTA-card-text-items {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .CTA-card-background-img-holder {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .CTA-img {
+    height: 100%;
+    width: 100%; 
+    position: static;
+    object-fit: cover;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  .CTA-card-button-box {
+    align-items: center;
+  }
+  
+  .CTA-card-button {
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    line-height: 22px;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: #484848;
+    font-weight: 600;
+  }
+  
+  .CTA-card-title {
+    text-align: center;
+    color: #ffffff;
+      
+  }
